@@ -23,7 +23,7 @@ const Chatbot = () => {
       setUserInput('');
   
       try {
-        const response = await fetch('https://femcare-chatbot-65eh.onrender.com/chatbot', {  
+        const response = await fetch('https://femcare-chatbot.onrender.com/chatbot', {  
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ message: userInput }),
